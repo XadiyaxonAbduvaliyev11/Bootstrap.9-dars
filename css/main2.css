@@ -1,0 +1,48 @@
+.text{
+    color: white;
+    position: relative;
+    left: 400px ;
+    top: -150px;
+    border: transparent 1px;
+    width: 300px;
+}
+.text1{
+    background: linear-gradient(110deg,darkcyan,dodgerblue);
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: bg;
+    transition: 5s ease-in;
+    height: 350px;
+    width: 10px;
+}
+
+.text3{
+    margin-left: 100px;
+    background-color: darkcyan;
+    color: white;
+}
+
+@keyframes bg {
+    to {
+        background: linear-gradient(110deg,darkcyan,dodgerblue);
+    }
+    from {
+        background: linear-gradient(110deg,darkcyan,dodgerblue);
+    }
+    0% {
+        background: linear-gradient(110deg,darkcyan,dodgerblue);
+    }
+    50% {
+        background: linear-gradient(110deg,darkcyan,dodgerblue);
+    }
+    70% {
+        background: linear-gradient(110deg,darkcyan,dodgerblue);
+    }
+    100% {
+        background: linear-gradient(110deg,darkcyan,dodgerblue);
+    }
+}
+.card-sm{
+    height: 350px;
+}
